@@ -2,7 +2,8 @@
 
 html,
 body {
-  background-color: lightseagreen;
+  /* background-color: lightseagreen; */
+  background-image: url("https://s3.amazonaws.com/spoonflower/public/design_thumbnails/0575/6726/rrrpaw_prints_shop_preview.jpg");
   text-align: center;
   font-family: 'Raleway', Helvetica, sans-serif;
   min-width: 320px;
