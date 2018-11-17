@@ -1,142 +1,146 @@
-<h1 id="title">All About My Dog - Survey Form</h1>
-<div id="form-outer">
-    <p id="description">
-        Please fill out this survey to tell us know fun facts about your beloved 4-legged companion!
-    </p>
+<html>
+<link rel ="stylesheet" href="styles.css">
 
-    <!-- FORM  -->
-    <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
-        <!-- OWNERS NAME -->
-        <div class="row">
-            <div class="label">
-                <label id="name-label" for="name">* Owners Name: </label>
-            </div>
-            <div class="rtTab">
-                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
-            </div>
-        </div>
+    <h1 id="title">All About My Dog - Survey Form</h1>
+    <div id="form-outer">
+        <p id="description">
+            Please fill out this survey to tell us know fun facts about your beloved 4-legged companion!
+        </p>
 
-        <!-- OWNERS EMAIL -->
-        <div class="row">
-            <div class="label">
-                <label id="email-label" for="email">* Owners Email: </label>
+        <!-- FORM  -->
+        <form id="survey-form" method="GET" action="https://crossorigin.me/https://freecodecamp.com">
+            <!-- OWNERS NAME -->
+            <div class="row">
+                <div class="label">
+                    <label id="name-label" for="name">* Owners Name: </label>
+                </div>
+                <div class="rtTab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                </div>
             </div>
-            <div class="rtTab">
-                <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your email">
-            </div>
-        </div>
 
-        <!-- DOGS NAME -->
-        <div class="row">
-            <div class="label">
-                <label id="name-label" for="name">* Dogs Name: </label>
+            <!-- OWNERS EMAIL -->
+            <div class="row">
+                <div class="label">
+                    <label id="email-label" for="email">* Owners Email: </label>
+                </div>
+                <div class="rtTab">
+                    <input type="email" name="email" id="email" class="input-field" required placeholder="Enter your email">
+                </div>
             </div>
-            <div class="rtTab">
-                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
-            </div>
-        </div>
 
-        <!-- DOGS AGE -->
-        <div class="row">
-            <div class="label">
-                <label id="number-label" for="age">* Dogs Age: </label>
+            <!-- DOGS NAME -->
+            <div class="row">
+                <div class="label">
+                    <label id="name-label" for="name">* Dogs Name: </label>
+                </div>
+                <div class="rtTab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your name" required>
+                </div>
             </div>
-            <div class="rtTab">
-                <input type="number" name="age" id="number" min="1" max="30" class="input-field" placeholder="Dogs Age">
-            </div>
-        </div>
 
-        <!-- DOGS BREED -->
-        <div class="row">
-            <div class="label">
-                <label for="breed">Which option best describes your dogs breed?</label>
+            <!-- DOGS AGE -->
+            <div class="row">
+                <div class="label">
+                    <label id="number-label" for="age">* Dogs Age: </label>
+                </div>
+                <div class="rtTab">
+                    <input type="number" name="age" id="number" min="1" max="30" class="input-field" placeholder="Dogs Age">
+                </div>
             </div>
-            <div class="rtTab">
-                <select id="dropdown" name="breed" class="dropdown">
-                    <option disabled value>Select an option</option>
-                    <option value="purebred">Purebred</option>
-                    <option value="purebred2">Purebred; AKC Registered</option>
-                    <option value="mutt">Mutt</option>
-                    <option value="other">Other</option>
-                    <option value="unsure">Not Sure</option>
-                </select>
-            </div>
-        </div>
 
-        <!-- DOGS BREED NAME -->
-        <div class="row">
-            <div class="label">
-                <label id="name-label" for="name">* Dogs Breed: </label>
+            <!-- DOGS BREED -->
+            <div class="row">
+                <div class="label">
+                    <label for="breed">Which option best describes your dogs breed?</label>
+                </div>
+                <div class="rtTab">
+                    <select id="dropdown" name="breed" class="dropdown">
+                        <option disabled value>Select an option</option>
+                        <option value="purebred">Purebred</option>
+                        <option value="purebred2">Purebred; AKC Registered</option>
+                        <option value="mutt">Mutt</option>
+                        <option value="other">Other</option>
+                        <option value="unsure">Not Sure</option>
+                    </select>
+                </div>
             </div>
-            <div class="rtTab">
-                <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your dogs breed" required>
-            </div>
-        </div>
 
-        <!-- SHOW DOG -->
-        <div class="row">
-            <div class="label">
-                <label for="userRating">If your dog is an AKC Registered Purebred, do you currently show your dog at Dog Shows?</label>
+            <!-- DOGS BREED NAME -->
+            <div class="row">
+                <div class="label">
+                    <label id="name-label" for="name">* Dogs Breed: </label>
+                </div>
+                <div class="rtTab">
+                    <input autofocus type="text" name="name" id="name" class="input-field" placeholder="Enter your dogs breed" required>
+                </div>
             </div>
-            <div class="rtTab">
-                <ul style="list-style: none;">
-                    <li class="radio"><label>Yes<input name="radio-buttons" value="1" type="radio" class="userRatings" ></label></li>
-                    <li class="radio"><label>No<input name="radio-buttons" value="2" type="radio" class="userRatings" ></label></li>
-                    <li class="radio"><label>Thinking about it<input name="radio-buttons" value="3" type="radio" class="userRatings" ></label></li>
-                </ul>
-            </div>
-        </div>
 
-        <!-- WHAT DO YOU LIKE MOST ABOUT HAVING A DOG -->
-        <div class="row">
-            <div class="label">
-                <label for="most-like">What do you like most about having a dog:</label>
+            <!-- SHOW DOG -->
+            <div class="row">
+                <div class="label">
+                    <label for="userRating">If your dog is an AKC Registered Purebred, do you currently show your dog at Dog Shows?</label>
+                </div>
+                <div class="rtTab">
+                    <ul style="list-style: none;">
+                        <li class="radio"><label>Yes<input name="radio-buttons" value="1" type="radio" class="userRatings" ></label></li>
+                        <li class="radio"><label>No<input name="radio-buttons" value="2" type="radio" class="userRatings" ></label></li>
+                        <li class="radio"><label>Thinking about it<input name="radio-buttons" value="3" type="radio" class="userRatings" ></label></li>
+                    </ul>
+                </div>
             </div>
-            <div class="rtTab">
-                <select id="most-like" name="mostLike" class="dropdown">
-                    <option disabled selected value>Select an option</option>
-                    <option value="companionship">Companionship</option>
-                    <option value="love">Unconditional Love</option>
-                    <option value="travel">Travel Buddy</option>
-                    <option value="all">All the Above</option>
-                </select>
-            </div>
-        </div>
 
-        <!-- DOG TRICKS -->
-        <div class="row">
-            <div class="label">
-                <label for="tricks">What kind of tricks can your dog do?<br>(Check all that apply): </label>
+            <!-- WHAT DO YOU LIKE MOST ABOUT HAVING A DOG -->
+            <div class="row">
+                <div class="label">
+                    <label for="most-like">What do you like most about having a dog:</label>
+                </div>
+                <div class="rtTab">
+                    <select id="most-like" name="mostLike" class="dropdown">
+                        <option disabled selected value>Select an option</option>
+                        <option value="companionship">Companionship</option>
+                        <option value="love">Unconditional Love</option>
+                        <option value="travel">Travel Buddy</option>
+                        <option value="all">All the Above</option>
+                    </select>
+                </div>
             </div>
-            <div class="rtTab">
-                <ul id="tricks" style="list-style: none;">
-                    <li class="checkbox"><label><input name="trick" value="1" type="checkbox" class="userRatings">Sit</label></li>
-                    <li class="checkbox"><label><input name="trick" value="2" type="checkbox" class="userRatings">Stay</label></li>
-                    <li class="checkbox"><label><input name="trick" value="3" type="checkbox" class="userRatings">Lay Down</label></li>
-                    <li class="checkbox"><label><input name="trick" value="4" type="checkbox" class="userRatings">Roll Over</label></li>
-                    <li class="checkbox"><label><input name="trick" value="5" type="checkbox" class="userRatings">High Five</label></li>
-                    <li class="checkbox"><label><input name="trick" value="6" type="checkbox" class="userRatings">Shake Hands</label></li>
-                    <li class="checkbox"><label><input name="trick" value="7" type="checkbox" class="userRatings">Speak</label></li>
-                    <li class="checkbox"><label><input name="trick" value="8" type="checkbox" class="userRatings">Play Dead</label></li>
-                    <li class="checkbox"><label><input name="trick" value="9" type="checkbox" class="userRatings">Fetch</label></li>
-                    <li class="checkbox"><label><input name="trick" value="10" type="checkbox" class="userRatings">Kisses on command</label></li>
-                    <li class="checkbox"><label><input name="trick" value="11" type="checkbox" class="userRatings">Kennel on command</label></li>
-                </ul>
-            </div>
-        </div>
 
-        <!-- TEXT FIELD FOR USER COMMENTS -->
-        <div class=row>
-            <div class="label">
-                <label for="comments">Is there anything else you'd like to share with us about your dog?</label>
+            <!-- DOG TRICKS -->
+            <div class="row">
+                <div class="label">
+                    <label for="tricks">What kind of tricks can your dog do?<br>(Check all that apply): </label>
+                </div>
+                <div class="rtTab">
+                    <ul id="tricks" style="list-style: none;">
+                        <li class="checkbox"><label><input name="trick" value="1" type="checkbox" class="userRatings">Sit</label></li>
+                        <li class="checkbox"><label><input name="trick" value="2" type="checkbox" class="userRatings">Stay</label></li>
+                        <li class="checkbox"><label><input name="trick" value="3" type="checkbox" class="userRatings">Lay Down</label></li>
+                        <li class="checkbox"><label><input name="trick" value="4" type="checkbox" class="userRatings">Roll Over</label></li>
+                        <li class="checkbox"><label><input name="trick" value="5" type="checkbox" class="userRatings">High Five</label></li>
+                        <li class="checkbox"><label><input name="trick" value="6" type="checkbox" class="userRatings">Shake Hands</label></li>
+                        <li class="checkbox"><label><input name="trick" value="7" type="checkbox" class="userRatings">Speak</label></li>
+                        <li class="checkbox"><label><input name="trick" value="8" type="checkbox" class="userRatings">Play Dead</label></li>
+                        <li class="checkbox"><label><input name="trick" value="9" type="checkbox" class="userRatings">Fetch</label></li>
+                        <li class="checkbox"><label><input name="trick" value="10" type="checkbox" class="userRatings">Kisses on command</label></li>
+                        <li class="checkbox"><label><input name="trick" value="11" type="checkbox" class="userRatings">Kennel on command</label></li>
+                    </ul>
+                </div>
             </div>
-            <div class="rtTab">
-                <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+
+            <!-- TEXT FIELD FOR USER COMMENTS -->
+            <div class=row>
+                <div class="label">
+                    <label for="comments">Is there anything else you'd like to share with us about your dog?</label>
+                </div>
+                <div class="rtTab">
+                    <textarea id="comments" class="input-field" style="height:50px;resize:vertical;" name="comment" placeholder="Enter your comment here..."></textarea>
+                </div>
             </div>
-        </div>
 
-        <!-- FORM BUTTON -->
-        <button id="submit" type="submit">Submit</button>
+            <!-- FORM BUTTON -->
+            <button id="submit" type="submit">Submit</button>
 
-    </form>
-</div>
+        </form>
+    </div>
+</html>
