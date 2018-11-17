@@ -96,3 +96,20 @@ input[type="checkbox"] {
       width: 90%;
     }
   }
+
+  @media screen and (max-width: 520px) {
+    .label {
+      width: 100%;
+      text-align: left;
+    }
+    .rtTab {
+      width: 80%;
+      float: left;
+    }
+    .input-field {
+      width: 100%;
+    }
+    select {
+      width: 100%;
+    }
+  }
