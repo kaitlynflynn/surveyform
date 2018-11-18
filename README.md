@@ -7,6 +7,9 @@ For this application I built this entirely with the following:
 * [CSS](https://www.w3schools.com/css/)
 * [Form](https://www.w3schools.com/html/html_forms.asp)
 
+## Deployed
+* [Netlify](https://suspicious-goldwasser-025b64.netlify.com/)
+
 ## Author
 * [Kaitlyn Flynn](https://kaitlynflynn.com/)
 
